@@ -28,7 +28,7 @@ variable "availability_zones" {
 }
 
 variable "domain_name" {
-  description = "The domain to create a route53 zone for. (eg. `tfe.example.com`), will not create if left empty."
+  description = "Important:The domain to create a route53 zone for. (eg. `tfe.example.com`), will not create if left empty."
   default     = ""
 }
 
